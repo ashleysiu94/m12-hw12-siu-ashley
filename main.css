@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#button {
+  background-color: skyblue;
+  width: 225px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+#button:hover {
+  background-color: #48b4e0;
+}
