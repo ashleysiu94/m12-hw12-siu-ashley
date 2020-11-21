@@ -25,5 +25,5 @@ function printName() {
 };
 
 //Working Button
-const button = document.getElementById("button");
-button.addEventListener("click", printName());
+this.button = document.getElementById("button");
+this.button.addEventListener("click", this.printName);

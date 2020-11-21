@@ -10,6 +10,9 @@ header {
   height: 20vh;
   background-color: skyblue;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -30,6 +33,13 @@ main {
   font-family: "Karla", sans-serif;
   font-size: 4rem;
   padding-top: 10rem;
+  width: 550px;
+  height: 175px;
+  text-align: center;
+  background-image: url("border.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
 
 #button {
@@ -51,4 +61,12 @@ main {
 
 #button:hover {
   background-color: #48b4e0;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  padding: 20px;
 }
