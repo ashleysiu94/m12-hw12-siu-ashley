@@ -1,18 +1,46 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  padding: 0;
-  border: 0;
+}
+
+header {
+  height: 20vh;
+  background-color: skyblue;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#friend-list {
+  height: 25vh;
+  font-family: "Karla", sans-serif;
+  font-size: 4rem;
+  padding-top: 10rem;
 }
 
 #button {
   background-color: skyblue;
-  width: 225px;
+  width: 250px;
   height: 60px;
   border-radius: 5px;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 #button p {

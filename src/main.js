@@ -1,7 +1,6 @@
 //Create an array of 10 strings.
 var friends = ["Jillian", "Nick", "Azeem", "Morgan", "Anna", "Mona", "Stephen", "Leann", "Kerry", "Andrew"]
 
-
 //Randomize the array and select a friend
 function randomSort() {
   const result = [];
@@ -17,5 +16,14 @@ function randomSort() {
       }
     }
   }
-  return friends[0];
+  return result;
 };
+
+//Adds first item of shuffled list of friends to the page
+function printName() {
+  document.getElementById("friend-list").innerHTML = randomSort()[0];
+};
+
+//Working Button
+const button = document.getElementById("button");
+button.addEventListener("click", printName());
